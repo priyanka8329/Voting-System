@@ -73,7 +73,8 @@
         </div>
         
     </div>
-
+    
+     <!-- Creating a footer -->
     <div class="footer">
         <pre class="text-center text-white">© Copyright 2021 Right2Vote. All Rights Reserved.</pre>
         <p class="text-center text-white">Vote, it is your Right and Responsibility</p>
