@@ -1,0 +1,54 @@
+body{
+    font-family: 'EB Garamond', serif;
+    
+}
+
+
+
+.forms{
+    background-color: rgb(61, 129, 129);
+    height: 70vh;
+}
+
+.btn{
+    border: 5px solid rgb(79, 161, 194);
+    border-radius: 15px;
+    font-weight: 900;
+    
+}
+
+
+.forms h2{
+    font-size: 35px;
+    font-weight: bolder;
+  
+}
+
+.container h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.navbar{
+    height: vh;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.nav-link{
+    font-size: 22px;
+}
+
+.footer{
+    margin:40px;
+    font-size: 18px;
+}
