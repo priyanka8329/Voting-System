@@ -23,6 +23,7 @@ if($password!=$cpassword){
 
 else{
     move_uploaded_file($temp_name, "photo");
+    // writing a sql query
     $sql = "insert into `userdata` (username, phonenumber, password, photo,  standard, status, voter) values('$username', '$phone', '$password', '$photo', '$std',0,0)";
     $result = mysqli_query($con,$sql);
 
