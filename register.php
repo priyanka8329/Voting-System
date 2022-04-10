@@ -13,6 +13,7 @@ $photo = $_FILES['photo']['name'];
 $temp_name = $_FILES['photo']['temp_name'];
 $std = $_POST['option'];
 
+// comparing the password with the confirm password
 if($password!=$cpassword){
     echo '<script>
     alert("Password do not match ! Please try again");
